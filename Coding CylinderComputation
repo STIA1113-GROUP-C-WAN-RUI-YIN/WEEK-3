@@ -18,11 +18,11 @@ public class CylinderComputation {
 		System.out.print("The height is "); 
 		System.out.println(height);
 		System.out.print("The surface area is ");
-		System.out.println(surfaceArea);
+		System.out.printf("%.2f%n", surfaceArea);
 		System.out.print("The base area is ");
-		System.out.println(baseArea);
+		System.out.printf("%.2f%n", baseArea);
 		System.out.print("The volume is ");
-		System.out.println(volume);
+		System.out.printf("%.2f%n", volume );
 	}
 
 }
